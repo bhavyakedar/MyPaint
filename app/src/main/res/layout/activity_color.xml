@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/red"
+            android:text="RED"
+            android:textColor="#f00"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/green"
+            android:text="GREEN"
+            android:textColor="#0f0"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blue"
+            android:text="BLUE (DEFAULT)"
+            android:textColor="#00f"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yellow"
+            android:text="YELLOW"
+            android:textColor="#ff0"/>
+
+        <RadioButton
+            android:id="@+id/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORANGE"
+            android:textColor="#FF5722" />
+
+        <RadioButton
+            android:id="@+id/pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PINK"
+            android:textColor="#FFC0CB" />
+
+        <RadioButton
+            android:id="@+id/burntUmber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BROWN"
+            android:textColor="#8a3324" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/black"
+            android:text="BLACK"
+            android:textColor="#000"/>
+
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or enter 6 digit Hexadecimal Colour Code below:\n(Don't forget the '#')"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/colorEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Eg : #8a332f"/>
+
+</LinearLayout>
