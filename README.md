@@ -18,5 +18,4 @@ FEATURES:
 
 
 Developer: BHAVYA KEDAR,
-            
            email : bhavyakedar24x7@gmail.com | 201901028@daiict.ac.in
